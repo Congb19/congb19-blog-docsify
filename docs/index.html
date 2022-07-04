@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="icon" href="/assets/sayu.jpg" />
+    <!-- 外网cdn -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"
+    />
+    <!-- 国内cdn -->
+    <!-- <link href="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/themes/vue.min.css" rel="stylesheet"> -->
+    <!-- 本地备用 -->
+    <!-- <link
+      rel="stylesheet"
+      href="/assets/vue.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/gitalk.css"
+    /> -->
+    <style>
+      /* logo大小 */
+      .app-name-link :nth-child(1) {
+        max-width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: 'congb19-blog',
+        repo: 'Congb19/congb19-blog',
+        logo: '/assets/sayu.jpg',
+        // homepage: '/src/about/index.md',
+        routerMode: 'hash',
+        loadSidebar: true,
+        subMaxLevel: 2,
+        autoHeader: true,
+      };
+    </script>
+    <!-- 外网cdn -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/naive-ui"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <!-- 国内cdn -->
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/docsify.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/plugins/gitalk.min.js"></script> -->
+    <!-- 本地备用 -->
+    <!-- <script src="/assets/docsify.min.js"></script>
+    <script src="/assets/vue.global.js"></script>
+    <script src="/assets/naive-ui.js"></script>
+    <script src="/assets/docsify.gitalk.min.js"></script>
+    <script src="/assets/gitalk.min.js"></script> -->
+    <script>
+      const gitalk = new Gitalk({
+        clientID: '37e6e1ac430a2761691a',
+        clientSecret: '2cd49a1fbe4d3de9172e064673b7e87595cbfb5a',
+        repo: 'congb19-blog',
+        owner: 'Congb19',
+        admin: ['Congb19'],
+        // facebook-like distraction free mode
+        distractionFreeMode: false,
+      });
+    </script>
+  </body>
+</html>
