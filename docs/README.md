@@ -14,11 +14,13 @@ congb19-blog 是 congb19 的个人博客站+文档站。终于发现它们功能
 
 [hhr](https://www.huhaorui.com/)
 
-[timber](https://blog.timber3252.me/)
-
 [hyh](https://ethanwong.me/)
 
 [boom](https://www.lingzhicheng.cn/)
+
+[Finley](https://finleyge.github.io/)
+
+[i1nfo](https://blog.i1nfo.com)
 
 ---
 
