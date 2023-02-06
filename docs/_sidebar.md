@@ -2,15 +2,9 @@
 
   - [congb19-blog](/)
 
-  <!-- - [关于 Congb19](src/about/index.md) -->
-
   - [我的主站 congb19-top（建设中）](http://www.congb19.com)
 
 - POSTS
-
-  <!-- - 面试汇总
-
-    - [面试经验汇总](https://blog.congb19.com/categories/int/) -->
 
   - DEV
 
@@ -41,6 +35,10 @@
       - vue3源码简单实现4-组件化篇
 
         - [1.组件化简介](src/vue/vue3源码简单实现4-组件化篇/1.组件化简介.md)
+
+        - [2.组件的状态](src/vue/vue3源码简单实现4-组件化篇/2.组件的状态.md)
+
+        - [3.组件实例与生命周期](src/vue/vue3源码简单实现4-组件化篇/3.组件实例与生命周期.md)
 
       - vue3源码简单实现5-编译器篇
       
