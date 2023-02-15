@@ -30,7 +30,7 @@
 
       - vue3源码简单实现3-DIFF篇
 
-        - [1.简单DIFF算法](src/vue/vue3源码简单实现3-DIFF篇/1.简单DIFF算法.md)
+        - [1.DIFF算法简介](src/vue/vue3源码简单实现3-DIFF篇/1.DIFF算法简介.md)
 
       - vue3源码简单实现4-组件化篇
 
