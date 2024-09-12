@@ -26,6 +26,7 @@ jobs:
         script: |
           cd /www/congb19-blog-docsify
           echo "deploy_bot connected! test"
-          git pull origin production
+          git checkout production
+          git pull
           docker-compose down
-          docker-compose up --build -d
+          docker-compose up -d
