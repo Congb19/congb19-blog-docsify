@@ -22,6 +22,7 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         script: |
           cd /www/congb19-blog-docsify
+          echo "deploy_bot connected! test"
           git pull origin production
           docker-compose down
           docker-compose up --build -d
